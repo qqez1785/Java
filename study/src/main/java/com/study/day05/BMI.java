@@ -1,4 +1,4 @@
-package com.study.day05;
+ package com.study.day05;
 
 // 封裝版 BMI
 public class BMI {

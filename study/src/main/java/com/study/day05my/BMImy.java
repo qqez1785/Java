@@ -48,6 +48,12 @@ public class BMImy {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
+
+	@Override
+	public String toString() {
+		this.bmi = calcBmi();  //bmi要重新計算
+		return "BMImy [name=" + name + ", height=" + height + ", weight=" + weight + ", bmi=" + bmi + "]";
+	}
 	
 	
 

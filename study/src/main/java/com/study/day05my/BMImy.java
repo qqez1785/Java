@@ -9,6 +9,10 @@ public class BMImy {
 	private double bmi;
 	
 	
+	public double getBmi() {
+		return bmi;
+	}
+
 	public BMImy(String name, double height, double weight) {
 		super();
 		this.name = name;

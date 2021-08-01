@@ -19,6 +19,10 @@ public class HelloBMImy {
 		System.out.println(b1);
 		//重新設定身高後,但是Bmi還是沒有更改,所以要再重新計算
 		
+		BMIresult bmiresult = new BMIresult (b1);
+		System.out.println(bmiresult.getResult());
+		
+		
 	
 	}
 

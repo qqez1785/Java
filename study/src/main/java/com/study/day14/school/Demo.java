@@ -4,6 +4,7 @@ import java.util.LinkedHashSet;
 
 public class Demo {
 	public static void main(String[] args) {
+		
 		Clazz c1 = new Clazz("Java", 8, 500);
 		Clazz c2 = new Clazz("VB", 3, 300);
 		Clazz c3 = new Clazz("IOT", 6, 400);

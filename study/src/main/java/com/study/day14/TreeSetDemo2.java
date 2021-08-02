@@ -5,6 +5,9 @@ import java.util.TreeSet;
 
 public class TreeSetDemo2 {
     public static void main(String[] args) {
+    	
+    	//【0802-(第9堂)＿15:42~38:46
+    	
         TreeSet tree = new TreeSet();
         // 取得 1~10 之間的亂數
         // 取出 5 個

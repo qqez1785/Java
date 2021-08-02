@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 
 public class MultiArrayJava8Demo3 {
-	//【0729-2(第六堂) 02:15:27~  】
+	//【0729-2(第六堂) 02:15:27~ 2:36:00 】
 	public static void main(String[] args) {
 		Exam e1 = new Exam("Java", 90);
 		Exam e2 = new Exam("Java", 80);

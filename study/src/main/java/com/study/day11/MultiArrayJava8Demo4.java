@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MultiArrayJava8Demo4 {
 	public static void main(String[] args) {
+		//【0729-2(第六堂) 02:36:27~ 3:00:00 】
 		
 		String[] names = {"Mary", "Jim", "Vincent", "Anita", "Jo", "abcdefg"};
 		// 請問哪一個名字最長 ?

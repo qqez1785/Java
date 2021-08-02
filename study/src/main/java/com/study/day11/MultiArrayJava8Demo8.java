@@ -6,6 +6,10 @@ import java.util.stream.DoubleStream;
 public class MultiArrayJava8Demo8 {
 
 	public static void main(String[] args) {
+		
+		//【0730-1(第七堂) 36:00~ 】 
+		
+		
 		// 有三組 {身高, 體重} 的資料
 		// 請各別求出 bmi 的資料
 		double[][] values = {{170, 60}, {180, 80}, {160, 50} };

@@ -12,6 +12,8 @@ public class MultiArrayJava8Demo2 {
 		Exam e5 = new Exam("數學", 70);
 		Exam e6 = new Exam("英文", 90);
 		
+		//【0729-2(第六堂) 01:22:27~ 01:36:00 下課 2:00:00 ~】 
+		
 		Exam[] exams = {e1, e2, e3, e4, e5, e6};
 		
 		Arrays.stream(exams)

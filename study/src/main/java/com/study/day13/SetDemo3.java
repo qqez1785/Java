@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
+//【0730-(第8堂)＿下午2 _  Start ~ end】
+
 // 建立帳號系統
 // 1. 新建帳號不可重複
 // 2. 移除帳號時必須帳號要存在
@@ -11,6 +13,7 @@ import java.util.Scanner;
 // 4. 移除帳號指令: -帳號
 
 public class SetDemo3 {
+	
 
 	public static void main(String[] args) {
 		LinkedHashSet acct = new LinkedHashSet();

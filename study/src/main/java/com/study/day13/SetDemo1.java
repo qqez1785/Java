@@ -8,6 +8,9 @@ import java.util.TreeSet;
 public class SetDemo1 {
 
 	public static void main(String[] args) {
+		
+		//【0730-(第8堂)＿下午1 _  57:00 ～ 1:22:00】
+		
 		// 優點：新增、修改、刪除元素快
 		// 查詢也快，但是略遜 TreeSet
 		// 無序

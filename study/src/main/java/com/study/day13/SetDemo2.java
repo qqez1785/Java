@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class SetDemo2 {
 
 	public static void main(String[] args) {
+		//【0730-(第8堂)＿下午1 _  1:25:00 ~ end】
+		
+		
 		// 帳號申請
 		LinkedHashSet acct = new LinkedHashSet();
 		while(true) {

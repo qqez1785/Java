@@ -22,16 +22,6 @@ public class MultiArrayJava8Demo1 {
 
 		System.out.println("---------");
 
-		// 資料排序 【0729-2(第六堂) 00:42:27~ 52:00】
-		// sorted() 自然排序(小 -> 大)
-		// unordered() 無序
-		// boxed().sorted(Collections.reverseOrder()) 反序(大 -> 小)
-		Arrays.stream(scores).sorted().forEach(System.out::println);
-		Arrays.stream(scores).unordered().forEach(System.out::println);
-		Arrays.stream(scores)
-					.boxed() // int -> Integer
-					.sorted(Collections.reverseOrder())
-					.forEach(System.out::println);
 		
 		System.out.println("---------");
 
@@ -65,6 +55,21 @@ public class MultiArrayJava8Demo1 {
 					  .filter(pass)
 					  .sorted()
 					  .forEach(System.out::println);
+				
+				
+				// 資料排序 【0729-2(第六堂) 1:18:27~ 1:25:00】
+				// sorted() 自然排序(小 -> 大)
+				// unordered() 無序
+				// boxed().sorted(Collections.reverseOrder()) 反序(大 -> 小)
+				Arrays.stream(scores).sorted().forEach(System.out::println);
+				Arrays.stream(scores).unordered().forEach(System.out::println);
+				Arrays.stream(scores)
+							.boxed() // int -> Integer (boxed把基本型別轉成參考型別)
+							.sorted(Collections.reverseOrder())
+							.forEach(System.out::println);
+				
+				System.out.println("---------");
+				
 				
 				
 	}

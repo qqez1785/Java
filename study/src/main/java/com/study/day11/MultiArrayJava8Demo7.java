@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class MultiArrayJava8Demo7 {
 
 	public static void main(String[] args) {
+		
+		//【0730-1(第七堂) 27:25 】 
 		int[][] scores = { { 100, 90, 70 }, { 80, 70, 60 } };
 		// 各別求出每一筆資料的總和
 		Arrays.stream(scores)

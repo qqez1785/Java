@@ -1,6 +1,8 @@
 package com.study.day12;
 
 public class Employee {
+	//【0730-(第8堂)下午1  00:9:41 ~00:15:15 】
+	
 	private String name;    // 姓名
 	private int age;        // 年齡
 	private Integer salary; // 薪資

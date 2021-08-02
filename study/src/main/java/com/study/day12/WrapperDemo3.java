@@ -4,7 +4,7 @@ public class WrapperDemo3 {
 
 	public static void main(String[] args) {
 		
-		//【0730-1(第七堂)  2:27:00 ~ end】
+		//【0730-(第8堂)下午1  Start ~00:9:41】
 		
 		/*
 		Integer[] exam = { 

@@ -11,6 +11,8 @@ public class ArrayDemo2 {
 		double avg = Util.getAvg(scores);
 		System.out.println(sum);
 		System.out.println(avg);
+		
+		//記起來這個用法
 		System.out.println(Arrays.toString(scores));
 		// 最高分與最低分 ?
 		int max = 0;

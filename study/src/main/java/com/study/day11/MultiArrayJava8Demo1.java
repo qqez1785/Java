@@ -12,7 +12,7 @@ public class MultiArrayJava8Demo1 {
 
 		int[] scores = { 100, 40, 80, 70, 50 };
 
-		Arrays.stream(scores) // 得到一個 IntStream
+		Arrays.stream(scores) // 得到一個 IntStream 【0729-2(第六堂) 00:28:27~ 42:00】
 				.forEach(score -> System.out.println(score));
 
 		System.out.println("---------");
@@ -22,7 +22,7 @@ public class MultiArrayJava8Demo1 {
 
 		System.out.println("---------");
 
-		// 資料排序
+		// 資料排序 【0729-2(第六堂) 00:42:27~ 52:00】
 		// sorted() 自然排序(小 -> 大)
 		// unordered() 無序
 		// boxed().sorted(Collections.reverseOrder()) 反序(大 -> 小)
@@ -36,11 +36,10 @@ public class MultiArrayJava8Demo1 {
 		System.out.println("---------");
 
 		// 過濾出(印出)及格或不及格的成績
-		IntPredicate high = score -> score >= 80;
-		IntPredicate pass = score -> score >= 60;
-		IntPredicate fail = score -> score < 60;
-
-		Arrays.stream(scores).filter(pass).forEach(System.out::println);
+		
+		Arrays.stream(scores)
+			  .filter(pass)
+			  .forEach(System.out::println);
 
 		System.out.println("---------");
 
@@ -52,11 +51,22 @@ public class MultiArrayJava8Demo1 {
 
 		System.out.println("---------");
 
-		// 敘述統計
+		// 敘述統計【0729-2(第六堂) 00:52:27~ 58:00】
 		IntSummaryStatistics stat = Arrays.stream(scores).summaryStatistics();
 		System.out.println(stat);
 		System.out.printf("總分：%d 平均：%.1f 最大：%d 最小：%d 個數：%d\n", stat.getSum(), stat.getAverage(), stat.getMax(),
 				stat.getMin(), stat.getCount());
+		
+		// 過濾出(印出)及格或不及格的成績【0729-2(第六堂) 01:02:27~ 01::00】
+				IntPredicate high = score -> score >= 80;
+				IntPredicate pass = score -> score >= 60;
+				IntPredicate fail = score -> score < 60;
+				Arrays.stream(scores)
+					  .filter(pass)
+					  .sorted()
+					  .forEach(System.out::println);
+				
+				
 	}
 
 }

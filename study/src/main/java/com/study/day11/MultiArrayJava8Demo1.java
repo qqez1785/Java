@@ -26,6 +26,9 @@ public class MultiArrayJava8Demo1 {
 		System.out.println("---------");
 
 		// 過濾出(印出)及格或不及格的成績
+		IntPredicate high = score -> score >= 80;
+		IntPredicate pass = score -> score >= 60;
+		IntPredicate fail = score -> score < 60;
 		
 		Arrays.stream(scores)
 			  .filter(pass)
@@ -48,9 +51,7 @@ public class MultiArrayJava8Demo1 {
 				stat.getMin(), stat.getCount());
 		
 		// 過濾出(印出)及格或不及格的成績【0729-2(第六堂) 01:02:27~ 01::00】
-				IntPredicate high = score -> score >= 80;
-				IntPredicate pass = score -> score >= 60;
-				IntPredicate fail = score -> score < 60;
+				
 				Arrays.stream(scores)
 					  .filter(pass)
 					  .sorted()

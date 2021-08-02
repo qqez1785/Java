@@ -3,7 +3,7 @@ package com.study.day12;
 public class WrapperDemo1 {
 
 	public static void main(String[] args) {
-		//【0730-1(第七堂) ~下課1:33:40  ~1:56:00 ~上課 】
+		//【0730-1(第七堂) ~下課1:33:40  ~1:56:00 ~上課~ 2:10:00 】
 		
 		String checkString = "True";
 		

@@ -3,6 +3,7 @@ package com.study.day12;
 public class WrapperDemo2 {
 	public static void main(String[] args) {
 		
+		//【0730-1(第七堂)  2:10:00 ~ 2:27:00】
 		String chineseString = "100";
 		String mathString = "90";
 		System.out.println(chineseString + mathString);

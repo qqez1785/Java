@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class MultiArrayJava8Demo9 {
 	public static void main(String[] args) {
+		
+		//【0730-1(第七堂) 1:02:00~ 1:33:40  ~下課~1:56:00 】 
 		Exam e1 = new Exam("Java", 90);
 		Exam e2 = new Exam("Java", 80);
 		Exam e3 = new Exam("Java", 100);

@@ -7,7 +7,7 @@ public class MultiArrayJava8Demo8 {
 
 	public static void main(String[] args) {
 		
-		//【0730-1(第七堂) 36:00~ 】 
+		//【0730-1(第七堂) 36:00~ 54:20】 
 		
 		
 		// 有三組 {身高, 體重} 的資料
@@ -34,6 +34,7 @@ public class MultiArrayJava8Demo8 {
 				double bmi = w / Math.pow(h/100, 2);
 				return bmi;
 			})
+			.peek(System.out::println)  //【0730-1(第七堂) 51:25 】
 			.forEach(System.out::println);
 		
 		// case 3

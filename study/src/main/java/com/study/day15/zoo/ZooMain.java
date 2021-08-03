@@ -3,6 +3,7 @@ package com.study.day15.zoo;
 public class ZooMain {
 
 	public static void main(String[] args) {
+		//【0803上午1】  02:18:00
 		Tiger tiger = new Tiger();
 		printAnimal(tiger);
 		

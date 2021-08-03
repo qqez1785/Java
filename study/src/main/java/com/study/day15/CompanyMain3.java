@@ -3,7 +3,7 @@ package com.study.day15;
 import java.util.Random;
 
 public class CompanyMain3 {
-	
+	//【0803上午1】   01:48:00   ~ 02:18:00 (參考照片)
 	public static void main(String[] args) {
 		Employee employee = getEmployee();
 		System.out.println(employee.getClass().getSimpleName());

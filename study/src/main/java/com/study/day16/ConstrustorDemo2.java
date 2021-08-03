@@ -1,5 +1,6 @@
 package com.study.day16;
 
+//【0803 下午1】    2:39:00~2:59:00
 class Bar {
 	Bar() {
 		System.out.println("Bar...");

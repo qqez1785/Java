@@ -3,6 +3,7 @@ package com.study.day15.zoo;
 import java.util.Arrays;
 
 public class ZooMain2 {
+	// 【0803 下午1】   00:34:50  ~  01:20:00
 	
 	// 多型下轉型的問題 I
 	public static void main(String[] args) {

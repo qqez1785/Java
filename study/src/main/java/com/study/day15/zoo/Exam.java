@@ -1,4 +1,6 @@
 package com.study.day15.zoo;
+//【0803 下午1】  下課 01:33:00  ~  01:57:33
+//【0803 下午1】   01:57:33  ~  2:02:00
 
 class C1 {}
 class C2 extends C1 {}

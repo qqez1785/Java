@@ -1,7 +1,8 @@
 package com.study.day15.zoo;
 
 public class ZooMain3 {
-	
+	// 【0803 下午1】   01:20:00  ~   01:33:00
+	// 【0803 下午1】  下課 01:33:00  ~  01:57:33
 	// 多型下轉型的問題 II
 	public static void main(String[] args) {
 		Animal  a1 = (Animal)new Bird(); // OK

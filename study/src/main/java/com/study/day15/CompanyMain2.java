@@ -3,6 +3,7 @@ package com.study.day15;
 public class CompanyMain2 {
 
 	public static void main(String[] args) {
+		//【0803上午1】01:05:26
 		Employee employee = new Employee();
 		Manager manager = new Manager();
 		Supervisor supervisor = new Supervisor();

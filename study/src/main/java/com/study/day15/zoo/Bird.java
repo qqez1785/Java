@@ -1,6 +1,8 @@
 package com.study.day15.zoo;
 
 public class Bird extends Animal {
+	
+	
 	Bird() {
 		System.out.println("Bird 物件被建立");
 		setLegs(2);

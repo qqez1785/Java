@@ -46,7 +46,20 @@ public class DrinkStore2 {
 		Combo familyCombo = new Combo(drinks, desserts, 0.88);
 		
 		
-		//解答 【0803 下午1】   Start   ~ 02:18:00
+		//解答 【0803 下午1】   Start   ~ 00:10:00
+		
+		// 請問此套餐折扣後的價格是多少 ?
+				int drinkTotalPrice = familyCombo.getDrinks().stream()
+						.mapToInt(drink -> drink.getAmount() * 
+								           drink.getProducts().stream().mapToInt(Product::getPrice).sum())
+						.sum();
+				int dessertTotalPrice = familyCombo.getDesserts().stream()
+						.mapToInt(dessert -> dessert.getAmount() * 
+								             dessert.getProduct().getPrice())
+						.sum();
+				double totalPrice = (drinkTotalPrice + dessertTotalPrice) * familyCombo.getDiscount();
+				System.out.println(totalPrice);
+				
 				
 	}
 

@@ -11,7 +11,7 @@ public class CircleAreaMain {
 		// 若半徑 = 10, 求面積 = ?
 		CircleArea circleArea = new CircleArea() {
 			
-			//實做出來 (系統自動生成) 
+			//實做出來 (系統自動生成)
 			
 			@Override
 			public double calc(double r, int type) {

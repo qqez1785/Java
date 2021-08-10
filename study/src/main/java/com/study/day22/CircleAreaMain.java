@@ -5,6 +5,9 @@ import javax.swing.SwingConstants;
 public class CircleAreaMain {
 
 	public static void main(String[] args) {
+		
+		//0805上午(第15堂) 1:22:55
+		
 		// 若半徑 = 10, 求面積 = ?
 		CircleArea circleArea = new CircleArea() {
 			@Override

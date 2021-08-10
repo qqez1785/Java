@@ -1,5 +1,7 @@
 package com.study.day22;
 
+//0805上午(第15堂) 2:09:55 
+
 public class BMIMain {
 	public static void main(String[] args) {
 		// 身高 175.5 體重 72.5 求 bmi= ?

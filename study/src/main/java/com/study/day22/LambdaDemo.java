@@ -19,7 +19,8 @@ public class LambdaDemo {
 		
 		
 		
-		// 方法二 : Lambda寫法
+		// 方法二 : Lambda寫法 (內部類 縮減而來)
+		
 		Add add2 = (int x, int y) -> x + y;
 		Add add3 = (x, y) -> x + y;
 		

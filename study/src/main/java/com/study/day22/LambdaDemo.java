@@ -1,6 +1,6 @@
 package com.study.day22;
 
-//0805上午(第15堂) 2:18:55  
+//0805上午(第15堂) 2:18:55   (搭配 Add 介面)
 
 
 public class LambdaDemo {
@@ -8,7 +8,7 @@ public class LambdaDemo {
 	public static void main(String[] args) {
 		
 		
-		// 方法一 : 使用匿名內部類別實現 Add 介面
+		// 方法一 : 使用匿名內部類別實現 Add 介面 (搭配 Add 介面)
 		Add add1 = new Add() {
 			@Override
 			public int calc(int x, int y) {

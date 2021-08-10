@@ -1,5 +1,7 @@
 package com.study.day22;
 
+//0805上午(第15堂) 2:45:55 (搭配BMI 介面)
+
 public class LambdaDemo3 {
 
 	public static void main(String[] args) {

@@ -1,13 +1,9 @@
 package com.study.day22;
 
-//0805上午(第15堂) 2:29:55  (搭配Socore介面)
+//0805上午(第15堂) 2:29:55 ~ 2:45:55 (搭配Socore介面)
 
 public class LambdaDemo2 {
-
 	public static void main(String[] args) {
-		
-		
-		
 		// score : 75
 		// score : 45
 		// 直接用 lambda 語法求解 ?

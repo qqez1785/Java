@@ -3,7 +3,7 @@ package com.study.day22;
 class Job {
 	// 方法
 	void start() {
-		int year = 2021; // 方法區域變數
+		int year = 2021; // 方法區域變數 (Java8 : 系統固定是 final) 35:00 
 		                 // 若此變數要給方法內部類別
 		                 // 則編譯器會在背後加上 final 來修飾
 		// 方法內部類別

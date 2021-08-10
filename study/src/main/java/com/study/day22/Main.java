@@ -1,5 +1,6 @@
 package com.study.day22;
 
+//0805上午(第15堂) Start
 class Outer {
 	int x = 7; // Outer's 物件變數
 	class Inner {

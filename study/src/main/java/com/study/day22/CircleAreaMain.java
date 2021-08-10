@@ -8,6 +8,8 @@ public class CircleAreaMain {
 		
 		//0805上午(第15堂) 1:22:55
 		
+		//0805上午(第15堂) 1:30:00 ~ 下課 ~ 1:56:00
+		
 		// 若半徑 = 10, 求面積 = ?
 		CircleArea circleArea = new CircleArea() {
 			

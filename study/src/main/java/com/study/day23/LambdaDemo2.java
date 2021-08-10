@@ -4,6 +4,8 @@ import java.util.function.BiConsumer;
 import java.util.function.IntFunction;
 import java.util.function.ToIntFunction;
 
+//0805 下午(第16堂) 4:53:00~  End6:54:00
+
 public class LambdaDemo2 {
 
 	public static void main(String[] args) {

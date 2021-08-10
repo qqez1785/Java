@@ -1,5 +1,7 @@
 package com.study.day24;
 
+//0806上午(第17堂) Start
+
 class Outer {
 	int x = 10; // Outer's 物件變數
 	static int sx = 100; // Outer's 類別(static)變數/靜態變數

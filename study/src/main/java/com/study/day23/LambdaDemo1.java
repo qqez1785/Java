@@ -7,7 +7,8 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-//0805 下午(第16堂) 3:55:00 ~
+//0805 下午(第16堂) 3:55:00 ~4:30:00 上講義
+
 
 public class LambdaDemo1 {
 

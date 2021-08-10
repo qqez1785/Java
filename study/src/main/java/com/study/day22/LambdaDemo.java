@@ -6,7 +6,9 @@ package com.study.day22;
 public class LambdaDemo {
 
 	public static void main(String[] args) {
-		// 使用匿名內部類別實現 Add 介面
+		
+		
+		// 方法一 : 使用匿名內部類別實現 Add 介面
 		Add add1 = new Add() {
 			@Override
 			public int calc(int x, int y) {
@@ -15,7 +17,9 @@ public class LambdaDemo {
 		};
 		System.out.println(add1.calc(10, 20));
 		
-		// Lambda
+		
+		
+		// 方法二 : Lambda寫法
 		Add add2 = (int x, int y) -> x + y;
 		Add add3 = (x, y) -> x + y;
 		

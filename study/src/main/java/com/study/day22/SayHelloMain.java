@@ -10,6 +10,8 @@ public class SayHelloMain {
 		
 		SayHello sayHello2 = new SayHello() {
 
+			// SayHello 是一個介面, 無法new , 但是透過匿名內部類,可以New (系統自動生成 override )
+			
 			@Override
 			public void hello(String name) {
 				System.out.println("Hi " + name);

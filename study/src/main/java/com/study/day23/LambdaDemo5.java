@@ -1,5 +1,7 @@
 package com.study.day23;
 
+//0805 下午(第16堂) 6:18:00
+
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;

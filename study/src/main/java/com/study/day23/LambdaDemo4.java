@@ -1,5 +1,7 @@
 package com.study.day23;
 
+//0805 下午(第16堂) 05:36:43 ~ 下課 ~ 6:00:00
+
 import java.util.Arrays;
 
 public class LambdaDemo4 {

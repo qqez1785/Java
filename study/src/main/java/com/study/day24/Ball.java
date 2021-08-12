@@ -1,5 +1,7 @@
 package com.study.day24;
 
+//0806上午(第17堂) 00:22:00~
+
 public class Ball { // data class
 	private String color;
 	private int price;

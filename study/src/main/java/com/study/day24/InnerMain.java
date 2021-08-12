@@ -1,6 +1,6 @@
 package com.study.day24;
 
-//0806上午(第17堂) Start
+//0806上午(第17堂) Start~22:00
 
 class Outer {
 	int x = 10; // Outer's 物件變數

@@ -18,6 +18,10 @@ class Outer {
 	
 }
 
+
+//-------------------------------------
+
+
 public class Main {
 	public static void main(String[] args) {
 		Outer ou = new Outer();
